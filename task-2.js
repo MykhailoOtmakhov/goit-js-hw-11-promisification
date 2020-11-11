@@ -16,4 +16,5 @@ const users = [
   
   const logger = updatedUsers => console.table(updatedUsers);
   
-  
+  toggleUserState(users, 'Mango').then(logger);
+  toggleUserState(users, 'Lux').then(logger);
